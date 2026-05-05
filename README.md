@@ -1,9 +1,3 @@
-## Requisitos
-Para ejecutar este proyecto, necesitas tener instalado Python y las siguientes librerías:
-* **PyTorch** (torch)
-* **Torchvision**
-* **Pillow** (para el manejo de imágenes `PIL`)
-
 # Clasificador de Manzanas y Jitomates (CNN)
 Este proyecto usa una Red Neuronal Convolucional para diferenciar frutas.
 
@@ -13,3 +7,9 @@ Este proyecto usa una Red Neuronal Convolucional para diferenciar frutas.
 3. Para probar una imagen: ejecuta `python predecir_fruta.py`
 
 **Nota:** El dataset no está incluido por su peso, pero puedes usar tus propias imágenes en la carpeta `train/test`.
+
+## Requisitos
+Para ejecutar este proyecto, necesitas tener instalado Python y las siguientes librerías:
+* **PyTorch** (torch)
+* **Torchvision**
+* **Pillow** (para el manejo de imágenes `PIL`)
